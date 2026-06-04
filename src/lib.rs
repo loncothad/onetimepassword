@@ -1,5 +1,3 @@
-//! # One-Time Password (OTP)
-//!
 //! Implementation of HMAC-Based One-Time Passwords (HOTP, [RFC 4226])
 //! and Time-Based One-Time Passwords (TOTP, [RFC 6238]).
 //!
