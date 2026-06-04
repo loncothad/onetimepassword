@@ -1,3 +1,11 @@
+//! # One-Time Password (OTP)
+//!
+//! Implementation of HMAC-Based One-Time Passwords (HOTP, [RFC 4226])
+//! and Time-Based One-Time Passwords (TOTP, [RFC 6238]).
+//!
+//! [RFC 4226]: https://tools.ietf.org/html/rfc4226
+//! [RFC 6238]: https://tools.ietf.org/html/rfc6238
+
 use core::{
     fmt,
     hint::{
