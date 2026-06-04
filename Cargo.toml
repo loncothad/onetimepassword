@@ -6,6 +6,7 @@ edition     = "2024"
 repository  = "https://github.com/loncothad/onetimepassword"
 license     = "MIT OR Apache-2.0"
 categories  = [ "no-std", "security" ]
+authors     = [ "loncothad <me@loncothad.cc>" ]
 publish     = true
 
 [dependencies]
